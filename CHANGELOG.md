@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7](https://github.com/ksv90/event-notifier/compare/v0.0.6...v0.0.7) (2024-02-24)
+
+
+### Bug Fixes
+
+* create store directory ([a4fe2f4](https://github.com/ksv90/event-notifier/commit/a4fe2f462688cba11c5e0763e7c262068b2a1818))
+* pnpm-store added ([d880f1e](https://github.com/ksv90/event-notifier/commit/d880f1e8f318c87270ea4f08b5e644a9cda4865f))
+
 ## [0.0.6](https://github.com/ksv90/event-notifier/compare/v0.0.5...v0.0.6) (2024-02-24)
 
 
