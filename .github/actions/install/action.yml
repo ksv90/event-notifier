@@ -9,6 +9,17 @@ runs:
         standalone: true
         run_install: false
 
+    - name: Set pnpm-store
+      run: export PNPM_HOME=./.pnpm-store
+      shell: bash
+
+    - name: Cache pnpm-store
+      uses: actions/cache@v3
+      id: pnpm-store
+      with:
+        path: .pnpm-store
+        key: pnpm-store-${{ hashFiles('.npmrc') }}
+
     - name: Cache node_modules
       uses: actions/cache@v3
       id: node-modules
