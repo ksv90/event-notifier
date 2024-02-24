@@ -1,0 +1,16 @@
+name: Publish
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+env:
+  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/install
+      - run: pnpm run publish
