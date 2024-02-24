@@ -1,5 +1,5 @@
 {
-  "name": "event-notifier",
+  "name": "@ksv90/event-notifier",
   "version": "0.0.1",
   "description": "typed event emitter",
   "main": "dist",
