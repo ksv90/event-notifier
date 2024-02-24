@@ -2,13 +2,17 @@
 
 ### **typed event emitter**
 
-### to install, use the following (or similar package managers)
+## to install run the following commands
 
-```sh
-npm install event-notifier
+```bash
+echo "\n@ksv90:registry=https://npm.pkg.github.com" >> ".npmrc"
+
+npm install @ksv90/event-notifier
 ```
 
-### after that you can use
+> this tells the package manager what to look for in the GitHub registry.
+
+## after that you can use
 
 ```ts
 type Data = {
@@ -27,7 +31,7 @@ eventNotifier.notify({ type: 'test' });
 eventNotifier.notify({ type: 'balance', value: 42 });
 ```
 
-### data object
+## data object
 
 ```ts
 type Data = {
@@ -48,7 +52,7 @@ eventNotifier.on('balance', (data) => {
 });
 ```
 
-### erroneous statements
+## erroneous statements
 
 ```ts
 type Data = {
