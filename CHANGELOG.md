@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.8](https://github.com/ksv90/event-notifier/compare/v0.0.7...v0.0.8) (2024-02-24)
+
+
+### Bug Fixes
+
+* eslint updated ([e5550af](https://github.com/ksv90/event-notifier/commit/e5550afb2537afa5d243b07b5b533f856e0f9a33))
+
 ## [0.0.7](https://github.com/ksv90/event-notifier/compare/v0.0.6...v0.0.7) (2024-02-24)
 
 
