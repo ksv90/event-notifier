@@ -53,5 +53,8 @@
     "pnpm": ">=8.0.0"
   },
   "packageManager": "pnpm@8.11.0",
-  "homepage": "https://github.com/ksv90/event-notifier"
+  "homepage": "https://github.com/ksv90/event-notifier",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
