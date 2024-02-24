@@ -13,4 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/install
-      - run: pnpm run publish
+      - run: pnpm publish --no-git-checks
