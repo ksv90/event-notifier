@@ -10,7 +10,7 @@ runs:
         run_install: false
 
     - name: Set pnpm-store
-      run: export PNPM_HOME=./.pnpm-store
+      run: export PNPM_HOME=./.pnpm-store && mkdir -p .pnpm-store
       shell: bash
 
     - name: Cache pnpm-store
