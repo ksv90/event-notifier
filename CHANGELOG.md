@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/ksv90/event-notifier/compare/v0.0.5...v0.0.6) (2024-02-24)
+
+
+### Bug Fixes
+
+* packs cache action created ([89e1f51](https://github.com/ksv90/event-notifier/commit/89e1f516133a4020831ecd1644c4137f77976847))
+
 ## [0.0.5](https://github.com/ksv90/event-notifier/compare/v0.0.4...v0.0.5) (2024-02-24)
 
 
