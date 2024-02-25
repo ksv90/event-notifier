@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/ksv90/event-notifier/compare/v0.1.9...v0.1.10) (2024-02-25)
+
+
+### Bug Fixes
+
+* npm token ([d6a05da](https://github.com/ksv90/event-notifier/commit/d6a05da8860730ace1fcf484203de4195d655a3f))
+
 ## [0.1.9](https://github.com/ksv90/event-notifier/compare/v0.1.8...v0.1.9) (2024-02-25)
 
 
