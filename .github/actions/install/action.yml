@@ -33,10 +33,26 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test dir
-      run: ls
+    - name: Test /
+      run: ls /
       shell: bash
 
-    - name: Test store
-      run: ls ~/setup-pnpm
+    - name: Test /home
+      run: ls /home
+      shell: bash
+
+    - name: Test /home/runner
+      run: ls /home/runner
+      shell: bash
+
+    - name: Test /home/runner/work
+      run: ls /home/runner/work
+      shell: bash
+
+    - name: Test /home/runner/work/event-notifier
+      run: ls /home/runner/work/event-notifier
+      shell: bash
+
+    - name: Test /home/runner/work/event-notifier/event-notifier
+      run: ls /home/runner/work/event-notifier/event-notifier
       shell: bash
