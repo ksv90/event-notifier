@@ -9,8 +9,8 @@ runs:
         standalone: true
         run_install: false
 
-    - name: Test pnpm-store
-      run: echo $PNPM_HOME
+    - name: Test dir
+      run: ls
       shell: bash
 
     - name: Cache pnpm-store
