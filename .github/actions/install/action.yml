@@ -16,7 +16,7 @@ runs:
 
     - name: Check pnpm store directory
       shell: bash
-      run: echo pnpm store path
+      run: pnpm store path
 
     - name: Check pnpm home var
       shell: bash
@@ -45,10 +45,14 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test /home/runner/
-      run: ls -a /home/runner/
+    - name: Test /
+      run: ls -a /
       shell: bash
 
-    - name: Test /home/runner/.pnpm
-      run: ls -a /home/runner/.pnpm
+    - name: Test /home
+      run: ls -a /home
+      shell: bash
+
+    - name: Test /home/runner/
+      run: ls -a /home/runner/
       shell: bash
