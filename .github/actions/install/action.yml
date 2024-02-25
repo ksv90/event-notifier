@@ -10,10 +10,6 @@ runs:
         run_install: false
         dest: ~/.pnpm
 
-    - name: Set pnpm store directory
-      shell: bash
-      run: echo "PNPM_HOME=~/.pnpm" >> $GITHUB_ENV
-
     - name: Check pnpm store directory
       shell: bash
       run: pnpm store path
