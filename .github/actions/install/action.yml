@@ -49,6 +49,6 @@ runs:
       run: ls -a /home/runner/
       shell: bash
 
-    - name: Test /home/runner/.pnpm-store
-      run: ls -a /home/runner/.pnpm-store
+    - name: Test /home/runner/.pnpm
+      run: ls -a /home/runner/.pnpm
       shell: bash
