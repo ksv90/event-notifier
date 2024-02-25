@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/ksv90/event-notifier/compare/v0.1.3...v0.1.4) (2024-02-25)
+
+
+### Bug Fixes
+
+* setup-node test ([8bec3eb](https://github.com/ksv90/event-notifier/commit/8bec3eb4bf1d481ab7bc40a059f36aa88502c19b))
+
 ## [0.1.3](https://github.com/ksv90/event-notifier/compare/v0.1.2...v0.1.3) (2024-02-25)
 
 
