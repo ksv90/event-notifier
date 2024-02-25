@@ -7,8 +7,8 @@ export default defineConfig({
     sourcemap: true,
     lib: {
       entry: './src/index.ts',
-      name: 'notifier',
-      formats: ['es', 'cjs'],
+      name: 'event-notifier',
+      formats: ['es'],
       fileName: 'index',
     },
   },
