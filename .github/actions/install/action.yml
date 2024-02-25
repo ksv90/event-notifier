@@ -8,7 +8,19 @@ runs:
       with:
         standalone: true
         run_install: false
-        # dest:
+        dest: .pnpm
+
+    - name: Set pnpm store directory
+      shell: bash
+      run: echo "PNPM_HOME=.pnpm" >> $GITHUB_ENV
+
+    - name: Check pnpm store directory
+      shell: bash
+      run: echo pnpm store path
+
+    - name: Check pnpm home var
+      shell: bash
+      run: echo $PNPM_HOME
 
     - name: Cache pnpm-store
       uses: actions/cache@v3
@@ -33,10 +45,10 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test /home/runner/.pnpm-store/v3
-      run: ls -a /home/runner/.pnpm-store/v3
+    - name: Test /home/runner/
+      run: ls -a /home/runner/
       shell: bash
 
-    - name: Test /home/runner/setup-pnpm/node_modules/.bin
-      run: ls -a /home/runner/setup-pnpm/node_modules/.bin
+    - name: Test /home/runner/.pnpm
+      run: ls -a /home/runner/.pnpm
       shell: bash
