@@ -33,6 +33,10 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test /home/runner/setup-pnpm/node_modules
-      run: ls /home/runner/setup-pnpm/node_modules
+    - name: Test /home/runner/work/event-notifier/event-notifier
+      run: ls /home/runner/work/event-notifier/event-notifier
+      shell: bash
+
+    - name: Test /home/runner/work/event-notifier/event-notifier/node_modules
+      run: ls /home/runner/work/event-notifier/event-notifier/node_modules
       shell: bash
