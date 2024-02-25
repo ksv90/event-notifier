@@ -8,6 +8,7 @@ runs:
       with:
         standalone: true
         run_install: false
+        # dest:
 
     - name: Test pnpm-store
       run: echo $PNPM_HOME
