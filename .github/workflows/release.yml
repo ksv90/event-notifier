@@ -21,9 +21,11 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_PLEASE_TOKEN }}
           release-type: node
+      - run: echo ${{ steps.release-please.outputs.release_created }}
+      - run: echo ${{ steps.release-please.outputs.tag_name }}
   validate:
     needs: release
-    if: ${{ needs.release.outputs.release_created == 'true' }}
+    if: ${{ needs.release.outputs.release_created == 'false' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
