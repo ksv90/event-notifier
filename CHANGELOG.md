@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.0.11](https://github.com/ksv90/event-notifier/compare/v0.0.10...v0.0.11) (2024-02-25)
+
+
+### Bug Fixes
+
+* pnpm setup action version updated ([ad05dd9](https://github.com/ksv90/event-notifier/commit/ad05dd9e866885d605d05f3b02e91ae2f0672d8b))
+* test 1 ([7ac21cd](https://github.com/ksv90/event-notifier/commit/7ac21cd54ed2863f553bd1ad7af726f874254b3e))
+* test 2 ([7791e8b](https://github.com/ksv90/event-notifier/commit/7791e8b72d3ac328b105a478f27b1db1150e3995))
+* test script moved ([2453c1a](https://github.com/ksv90/event-notifier/commit/2453c1a15b7a0666ce1d4da802bcb6bf8c4b2f9e))
+* test workflow ceated ([335b2e0](https://github.com/ksv90/event-notifier/commit/335b2e0803b2c7b68d6788eea9f8c132f7740632))
+
 ## [0.0.10](https://github.com/ksv90/event-notifier/compare/v0.0.9...v0.0.10) (2024-02-25)
 
 
