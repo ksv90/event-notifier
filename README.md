@@ -1,14 +1,13 @@
-# event-notifier pack
+# event-notifier
 
 ### **typed event emitter**
 
-## to install run the following commands
+
+## to install the package
 
 ```bash
-npm install @ksv90/event-notifier
+npm install event-notifier
 ```
-
-> this tells the package manager what to look for in the GitHub registry.
 
 ## after that you can use
 
