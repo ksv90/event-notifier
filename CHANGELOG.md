@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/ksv90/event-notifier/compare/v0.1.5...v0.1.6) (2024-02-25)
+
+
+### Bug Fixes
+
+* whoami ([916c711](https://github.com/ksv90/event-notifier/commit/916c711c07a0759f45c6b775317153330ab1cc34))
+
 ## [0.1.5](https://github.com/ksv90/event-notifier/compare/v0.1.4...v0.1.5) (2024-02-25)
 
 
