@@ -2,7 +2,6 @@ name: Validate
 
 on:
   pull_request:
-  workflow_dispatch:
 
 env:
   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
