@@ -4,7 +4,7 @@ description: Install dependencies and pnpm cache
 runs:
   using: composite
   steps:
-    - uses: pnpm/action-setup@v2
+    - uses: pnpm/action-setup@v3
       with:
         standalone: true
         run_install: false
