@@ -8,7 +8,7 @@ runs:
       with:
         standalone: true
         run_install: false
-        dest: .pnpm
+        dest: /home/runner/.pnpm
 
     - name: Set pnpm store directory
       shell: bash
@@ -45,14 +45,10 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test /
-      run: ls -a /
-      shell: bash
-
-    - name: Test /home
-      run: ls -a /home
-      shell: bash
-
     - name: Test /home/runner/
       run: ls -a /home/runner/
+      shell: bash
+
+    - name: Test /home/runner/.pnpm-store
+      run: ls -a /home/runner/.pnpm-store
       shell: bash
