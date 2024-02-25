@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.14](https://github.com/ksv90/event-notifier/compare/v0.1.13...v0.1.14) (2024-02-25)
+
+
+### Bug Fixes
+
+* pach ([0d31241](https://github.com/ksv90/event-notifier/commit/0d31241e337df9cfc2556f22541bad220eaff956))
+
 ## [0.1.13](https://github.com/ksv90/event-notifier/compare/v0.1.12...v0.1.13) (2024-02-25)
 
 
