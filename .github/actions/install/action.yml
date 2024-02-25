@@ -38,5 +38,5 @@ runs:
       shell: bash
 
     - name: Test store
-      run: ls /home/runner/setup-pnpm
+      run: ls ~/setup-pnpm
       shell: bash
