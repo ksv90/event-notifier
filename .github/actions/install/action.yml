@@ -9,8 +9,8 @@ runs:
         standalone: true
         run_install: false
 
-    - name: Set pnpm-store
-      run: export PNPM_HOME=./.pnpm-store && mkdir -p .pnpm-store
+    - name: Test pnpm-store
+      run: echo $PNPM_HOME
       shell: bash
 
     - name: Cache pnpm-store
