@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/ksv90/event-notifier/compare/v0.1.4...v0.1.5) (2024-02-25)
+
+
+### Bug Fixes
+
+* npm config added ([bd1a43c](https://github.com/ksv90/event-notifier/commit/bd1a43cadf2e7d90e19fc0938341d9b8c79c937c))
+
 ## [0.1.4](https://github.com/ksv90/event-notifier/compare/v0.1.3...v0.1.4) (2024-02-25)
 
 
