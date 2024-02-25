@@ -1,6 +1,6 @@
 {
   "name": "@ksv90/event-notifier",
-  "version": "0.0.12",
+  "version": "0.1.0",
   "description": "typed event emitter",
   "main": "dist",
   "type": "module",
