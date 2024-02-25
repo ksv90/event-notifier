@@ -14,7 +14,7 @@ runs:
       uses: actions/cache@v3
       id: pnpm-store
       with:
-        path: ${{ PNPM_HOME }}
+        path: ${{ env.PNPM_HOME }}
         key: pnpm-store-${{ hashFiles('.npmrc') }}
 
     - name: Cache node_modules
