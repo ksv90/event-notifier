@@ -34,5 +34,5 @@ runs:
       shell: bash
 
     - name: Test dir
-      run: ls && cd /home/runner/ && ls && cd /home/runner/.pnpm-store && ls
+      run: ls /home/runner/.pnpm-store
       shell: bash
