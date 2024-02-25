@@ -5,8 +5,7 @@
 ## to install run the following commands
 
 ```bash
-echo "\n@ksv90:registry=https://npm.pkg.github.com" >> ".npmrc"
-
+echo "\n@ksv90:registry=https://npm.pkg.github.com" >> ".npmrc" &&
 npm install @ksv90/event-notifier
 ```
 
