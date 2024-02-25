@@ -10,14 +10,6 @@ runs:
         run_install: false
         # dest:
 
-    - name: Test pnpm-store
-      run: echo $PNPM_HOME
-      shell: bash
-
-    - name: Test dir
-      run: ls
-      shell: bash
-
     - name: Cache pnpm-store
       uses: actions/cache@v3
       id: pnpm-store
@@ -39,4 +31,8 @@ runs:
     - name: Install dependencies
       if: steps.node-modules.cache-hit != 'true'
       run: pnpm install --frozen-lockfile
+      shell: bash
+
+    - name: Test dir
+      run: ls && cd /home/runner/ && ls && cd /home/runner/.pnpm-store && ls
       shell: bash
