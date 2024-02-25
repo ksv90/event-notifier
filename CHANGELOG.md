@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.15](https://github.com/ksv90/event-notifier/compare/v0.0.14...v0.0.15) (2024-02-25)
+
+
+### Bug Fixes
+
+* publish changed ([83d5199](https://github.com/ksv90/event-notifier/commit/83d519900553134debc7b7852bb0e1da876ddf44))
+
 ## [0.0.14](https://github.com/ksv90/event-notifier/compare/v0.0.13...v0.0.14) (2024-02-25)
 
 
