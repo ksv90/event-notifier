@@ -52,3 +52,11 @@ runs:
     - name: Test /home/runner/.pnpm
       run: ls -a /home/runner/.pnpm
       shell: bash
+
+    - name: Test /home/runner/.pnpm/node_modules
+      run: ls -a /home/runner/.pnpm/node_modules
+      shell: bash
+
+    - name: Test /home/runner/.pnpm/node_modules/.bin
+      run: ls -a /home/runner/.pnpm/node_modules/.bin
+      shell: bash
