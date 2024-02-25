@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.13](https://github.com/ksv90/event-notifier/compare/v0.1.12...v0.1.13) (2024-02-25)
+
+
+### Bug Fixes
+
+* readme fixed ([dd693f5](https://github.com/ksv90/event-notifier/commit/dd693f5098e6c446bdb3ba9cfd119860019b8c2c))
+
 ## [0.1.12](https://github.com/ksv90/event-notifier/compare/v0.1.11...v0.1.12) (2024-02-25)
 
 
