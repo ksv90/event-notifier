@@ -33,6 +33,10 @@ runs:
       run: pnpm install --frozen-lockfile
       shell: bash
 
-    - name: Test /home/runner/.pnpm-store
-      run: ls -a /home/runner/.pnpm-store
+    - name: Test /home/runner/.pnpm-store/v3
+      run: ls -a /home/runner/.pnpm-store/v3
+      shell: bash
+
+    - name: Test /home/runner/setup-pnpm/node_modules/.bin
+      run: ls -a /home/runner/setup-pnpm/node_modules/.bin
       shell: bash
