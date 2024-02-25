@@ -1,6 +1,6 @@
 {
   "name": "event-notifier",
-  "version": "0.0.15",
+  "version": "0.1.11",
   "description": "typed event emitter",
   "main": "dist",
   "type": "module",
