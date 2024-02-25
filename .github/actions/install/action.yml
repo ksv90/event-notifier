@@ -29,7 +29,7 @@ runs:
       shell: bash
 
     - name: Set npm config
-      run: pnpm config set '//registry.npmjs.org/:_authToken' "${NODE_AUTH_TOKEN}"
+      run: pnpm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
       shell: bash
 
     - name: Install dependencies

@@ -5,6 +5,7 @@ on:
 
 env:
   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   publish:
@@ -12,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/install
-      - run: pnpm login
+      - run: pnpm whoami
       - run: pnpm publish --no-git-checks --access public
