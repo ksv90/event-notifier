@@ -34,5 +34,9 @@ runs:
       shell: bash
 
     - name: Test dir
-      run: ls setup-pnpm
+      run: ls
+      shell: bash
+
+    - name: Test store
+      run: ls /home/runner/setup-pnpm
       shell: bash
