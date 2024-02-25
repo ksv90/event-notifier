@@ -8,7 +8,7 @@ runs:
       with:
         standalone: true
         run_install: false
-        dest: /home/runner/.pnpm
+        dest: ~/.pnpm
 
     - name: Set pnpm store directory
       shell: bash
