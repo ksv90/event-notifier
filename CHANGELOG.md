@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/ksv90/event-notifier/compare/v0.1.6...v0.1.7) (2024-02-25)
+
+
+### Bug Fixes
+
+* login ([a07a2bc](https://github.com/ksv90/event-notifier/commit/a07a2bc33f82389884540cb0d5a88f19fb9385d0))
+
 ## [0.1.6](https://github.com/ksv90/event-notifier/compare/v0.1.5...v0.1.6) (2024-02-25)
 
 
