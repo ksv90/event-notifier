@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/ksv90/event-notifier/compare/v0.1.0...v0.1.1) (2024-02-25)
+
+
+### Bug Fixes
+
+* install script changed ([ff6f22d](https://github.com/ksv90/event-notifier/commit/ff6f22d6884efa39cd7d260fa9b31b2b60d1dc73))
+
 ## [0.1.0](https://github.com/ksv90/event-notifier/compare/v0.0.16...v0.1.0) (2024-02-25)
 
 
