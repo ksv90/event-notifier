@@ -2,7 +2,7 @@
   "name": "event-notifier",
   "version": "0.1.11",
   "description": "typed event emitter",
-  "main": "dist",
+  "main": "dist/index.js",
   "type": "module",
   "files": [
     "/dist"
