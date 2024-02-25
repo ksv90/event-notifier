@@ -6,7 +6,6 @@ on:
 
 env:
   NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  PNPM_HOME: ./.pnpm-store
 
 jobs:
   publish:
