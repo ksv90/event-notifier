@@ -12,7 +12,7 @@ runs:
 
     - name: Set pnpm store directory
       shell: bash
-      run: echo "PNPM_HOME=.pnpm" >> $GITHUB_ENV
+      run: echo "PNPM_HOME=~/.pnpm" >> $GITHUB_ENV
 
     - name: Check pnpm store directory
       shell: bash
