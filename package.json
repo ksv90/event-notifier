@@ -49,7 +49,7 @@
   "author": "Krasnov Sergei",
   "license": "ISC",
   "engines": {
-    "node": ">=20.0.0",
+    "node": ">=16.0.0",
     "pnpm": ">=8.0.0"
   },
   "packageManager": "pnpm@8.11.0",
