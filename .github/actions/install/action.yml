@@ -10,12 +10,12 @@ runs:
         run_install: false
         dest: ~/.pnpm
 
-    - name: Cache pnpm-store
+    - name: Cache pnpm-home
       uses: actions/cache@v3
-      id: pnpm-store
+      id: pnpm-home
       with:
         path: ${{ env.PNPM_HOME }}
-        key: pnpm-store-${{ hashFiles('.npmrc') }}
+        key: pnpm-home-${{ hashFiles('.npmrc') }}
 
     - name: Cache node_modules
       uses: actions/cache@v3
