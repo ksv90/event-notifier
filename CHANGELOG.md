@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.2](https://github.com/ksv90/event-notifier/compare/v0.1.1...v0.1.2) (2024-02-25)
+
+
+### Bug Fixes
+
+* npm registry ([d28e808](https://github.com/ksv90/event-notifier/commit/d28e808788005923585d4ec62da5cf3e79dc026b))
+* test ([ce61f94](https://github.com/ksv90/event-notifier/commit/ce61f945f50558a697fd79c2db535a114fcc062a))
+
 ## [0.1.1](https://github.com/ksv90/event-notifier/compare/v0.1.0...v0.1.1) (2024-02-25)
 
 
