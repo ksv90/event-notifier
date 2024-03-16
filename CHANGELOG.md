@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.15](https://github.com/ksv90/event-notifier/compare/v0.1.14...v0.1.15) (2024-03-16)
+
+
+### Bug Fixes
+
+* organization added to name ([9a26115](https://github.com/ksv90/event-notifier/commit/9a261154fdba486acfda8e3e4b9a2e222c83e52e))
+
 ## [0.1.14](https://github.com/ksv90/event-notifier/compare/v0.1.13...v0.1.14) (2024-02-25)
 
 
