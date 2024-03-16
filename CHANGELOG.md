@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.14](https://github.com/ksv90/event-notifier/compare/v0.1.13...v0.1.14) (2024-02-25)
+
+
+### Bug Fixes
+
+* pach ([0d31241](https://github.com/ksv90/event-notifier/commit/0d31241e337df9cfc2556f22541bad220eaff956))
+
+## [0.1.13](https://github.com/ksv90/event-notifier/compare/v0.1.12...v0.1.13) (2024-02-25)
+
+
+### Bug Fixes
+
+* readme fixed ([dd693f5](https://github.com/ksv90/event-notifier/commit/dd693f5098e6c446bdb3ba9cfd119860019b8c2c))
+
+## [0.1.12](https://github.com/ksv90/event-notifier/compare/v0.1.11...v0.1.12) (2024-02-25)
+
+
+### Bug Fixes
+
+* merge ([d46584a](https://github.com/ksv90/event-notifier/commit/d46584a816b04645fe1f7d0c4cf64e503f16a1e4))
+* name changed ([003f22d](https://github.com/ksv90/event-notifier/commit/003f22ddab2ea00362e6330078566ce760bc0992))
+
 ## [0.1.11](https://github.com/ksv90/event-notifier/compare/v0.1.10...v0.1.11) (2024-02-25)
 
 
