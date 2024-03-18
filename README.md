@@ -6,7 +6,7 @@
 ## to install the package
 
 ```bash
-npm install event-notifier
+npm install @ksv90/event-notifier
 ```
 
 ## after that you can use
