@@ -23,9 +23,9 @@ eventNotifier.on('balance', ({ value }) => {
   // your code
 });
 
-eventNotifier.notify({ type: 'test' });
+eventNotifier.emit({ type: 'test' });
 
-eventNotifier.notify({ type: 'balance', value: 42 });
+eventNotifier.emit({ type: 'balance', value: 42 });
 ```
 
 ## data object
@@ -63,11 +63,11 @@ const eventNotifier = new EventNotifier<Data>();
 eventNotifier.on('asd', () => {});
 
 // The "value" property is missing in the type "{ type: "balance"; }" and is required in the type "{ value: number; }".ts(2345)
-eventNotifier.notify({ type: 'balance' });
+eventNotifier.emit({ type: 'balance' });
 
 // An object literal can only use unique properties. "data" does not exist in type "{ type: "test"; }.ts(2353)
-eventNotifier.notify({ type: 'test', data: 42 });
+eventNotifier.emit({ type: 'test', data: 42 });
 
 // Type ""asd"" cannot be assigned to type "keyof Data".ts(2322)
-eventNotifier.notify({ type: 'asd' });
+eventNotifier.emit({ type: 'asd' });
 ```
