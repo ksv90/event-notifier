@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/ksv90/event-notifier/compare/v0.1.15...v0.2.0) (2024-03-18)
+
+
+### Features
+
+* method added ([f403b72](https://github.com/ksv90/event-notifier/commit/f403b72292dcdf40baeed8e798aa41bcf0569d43))
+
+
+### Bug Fixes
+
+* v0.2.0 ([2bff2da](https://github.com/ksv90/event-notifier/commit/2bff2dae87743724fc97536b71640cdc70fcffa9))
+
 ## [0.1.15](https://github.com/ksv90/event-notifier/compare/v0.1.14...v0.1.15) (2024-03-16)
 
 
