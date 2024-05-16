@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/ksv90/event-notifier/compare/v0.2.1...v0.3.0) (2024-05-16)
+
+
+### Features
+
+* types changed ([c7c0984](https://github.com/ksv90/event-notifier/commit/c7c0984cf0d711748a775feab9c8161296892a94))
+
 ## [0.2.1](https://github.com/ksv90/event-notifier/compare/v0.2.0...v0.2.1) (2024-03-18)
 
 
