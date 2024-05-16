@@ -1,9 +1,10 @@
 import { EventNotifier } from '../index';
 
-export type Data = {
-  balance: { value: number };
-  test: undefined;
-};
+export interface Data {
+  balanceChanged: number;
+  updated: null;
+  entityAdded: { id: number; name: string };
+}
 
 export type Context = {
   eventNotifier: EventNotifier<Data>;
